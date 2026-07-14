@@ -25,7 +25,7 @@ scroll-behavior:smooth;
 
 body{
 
-background:#050816 url("images/space-bg.jpg") center/cover fixed;
+background:#050816;
 
 color:white;
 
@@ -116,8 +116,7 @@ align-items:center;
 background:rgba(5,8,22,.55);
 
 backdrop-filter:blur(15px);
-
-z-index:999;
+z-index:99999;
 
 }
 
@@ -336,7 +335,7 @@ radial-gradient(2px 2px at 90% 40%,#fff,transparent);
 animation:twinkle 4s infinite alternate;
 
 opacity:.8;
-
+pointer-events: none;
 }
 
 @keyframes twinkle{
@@ -376,7 +375,7 @@ background:linear-gradient(to right,white,cyan,transparent);
 transform:rotate(-25deg);
 
 animation:meteorMove 7s linear infinite;
-
+pointer-events:none;
 }
 
 @keyframes meteorMove{
