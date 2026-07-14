@@ -515,17 +515,15 @@ gap:30px;
 }
 
 .project-card{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: .4s;
 
-background:white;
-
-border-radius:20px;
-
-overflow:hidden;
-
-box-shadow:var(--shadow);
-
-transition:.4s;
-
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .project-card:hover{
@@ -581,7 +579,7 @@ text-decoration:none;
 border-radius:40px;
 
 transition:.4s;
-
+ margin-top: auto; 
 }
 
 .project-btn:hover{
